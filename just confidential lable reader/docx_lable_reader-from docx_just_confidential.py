@@ -21,6 +21,3 @@ def extract_sensitivity_label_from_docx(docx_path):
     except Exception as e:
         print(f"❌ Error parsing XML in file: {e}")
 
-extract_sensitivity_label_from_docx(r"C:\Users\BABAK\Desktop\con2-2.docx")     
-# change for git test   
-# Second change

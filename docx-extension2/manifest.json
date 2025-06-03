@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Docx Filename Sender",
+  "version": "1.0",
+  "description": "Send DOCX filename to Python",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
